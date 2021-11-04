@@ -34,4 +34,4 @@ jobs:
           flutter-version: ${{env.FLUTTER_VERSION}}
       - run: flutter pub get
       - run: flutter analyze
-      - run: flutter test
+  #    - run: flutter test

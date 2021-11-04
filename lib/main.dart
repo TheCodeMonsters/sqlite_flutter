@@ -102,7 +102,19 @@ class _MyHomePageState extends State<MyHomePage> {
     User nineUser = User(name: "Juan", age: 31, country: "United Kingdom");
     User tenUser = User(name: "Pedro", age: 31, country: "United Kingdom");
     User elevenUser = User(name: "Fati", age: 31, country: "United Kingdom");
-    List<User> listOfUsers = [firstUser, secondUser];
+    List<User> listOfUsers = [
+      firstUser,
+      secondUser,
+      thirdUser,
+      forUser,
+      fiveUser,
+      sixUser,
+      sevenUser,
+      eightUser,
+      nineUser,
+      tenUser,
+      elevenUser
+    ];
     return await this.handler.insertUser(listOfUsers);
   }
 }
